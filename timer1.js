@@ -5,7 +5,7 @@ let j
 // print process.argv
 process.argv.forEach(function (val, index, array) {
     j = Number(val);
-    if(i >= 2){
+    if(i >= 2 && j >= 0){
         results.push(j*1000)
     }
     i++
